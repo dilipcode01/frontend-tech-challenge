@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.MuiDialog-container .MuiPaper-root {
+  margin: 0;
+  height: 100%;
+  border-radius: 0;
+}
+
+.MuiDialog-container .MuiPaper-root .MuiButtonBase-root:hover {
+  background-color: #0000ff;
+}
+
+@media (max-width: 1024px) {
+  .card-media {
+    width: 75% !important;
+  }
+  .MuiDialog-container .MuiPaper-root .MuiButtonBase-root svg {
+    font-size: 14px;
+  }
+  .feed-details {
+    flex: 0 0 35% !important
+  }
+}
